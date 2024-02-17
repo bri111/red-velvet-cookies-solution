@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+        background-color: #75201a;
+        color: #f7f0f0;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        /**spaces out letters with code instead of manually entering spaces*/
+        letter-spacing: 1.2px;
+        font-size: 50px;
+
+      }
+
+      .author {
+        /**controls alignment of items, it will center items no matter what*/
+        justify-content: center;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      img {
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+        width: 50%;
+      }
+      .about {
+        text-align: center;
+      /**no matter the size of the website, the text will move with it */
+        display: flex;
+        justify-content: center;
+      }
+
+      h2 {
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 1px;
+      }
+
+      /**padding is used for the space between its content and its border*/
+      section {
+        padding-left: 56px;
+        padding-right: 56px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+    /** how to make comments
+    // Works Cited: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+    .column {
+      float: left;
+      width: 22.33%;
+      padding: 40px;
+    }
+
+   /**Clearfix (clear floats)*/
+    .row::after {
+      content: "";
+      display: table;
+    }
+    container {
+      font-family: 'Bebas Neue', cursive;
+      max-width: 20px;
+      margin: auto;
+      height: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+
+  
+    
